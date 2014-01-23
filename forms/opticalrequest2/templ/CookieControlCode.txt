@@ -1,0 +1,57 @@
+<html>
+<head> 
+<script src="http://wcetdesigns.com/assets/javascript/jquery.js"></script>
+<script src="http://wcetdesigns.com/assets/javascript/jquery/cookie-plugin.js"></script>
+<script> 
+function remember_me(){
+   var c = $("#check"); //INPUT CHECKBOX
+
+   //IF CHECKBOX IS SET, COOKIE WILL BE SET
+   if(c.is(":checked")){
+     var n = $("#Name").val(); //VALUE OF NAME
+     var a = $("#Address1").val(); //VALUE OF Address
+     var s = $("#Address2").val(); //VALUE OF Suite
+     var c = $("#City").val(); //VALUE OF City
+     var z = $("#Zip").val(); //VALUE OF Zip
+     var p = $("#phone").val(); //VALUE OF Phone
+     var l = $("#Accnt_Number").val(); //VALUE OF Account Number
+     var o = $("#Pickup_Notes").val(); //VALUE OF Notes
+     $.cookie("Name", n, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("Address1", a, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("Address2", s, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("City", c, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("Zip", z, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("Phone", p, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("Accnt_Number", l, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+     $.cookie("Pickup_Notes", o, { expires: 3650 }); //SETS IN DAYS (10 YEARS)
+   }
+}
+//NEXT PAGE LOAD, THE INFO WILL BE SHOWN IN THEIR FIELDS
+function load_em(){
+   var n = $.cookie("Name"); //"Name" COOKIE
+   var a = $.cookie("Address1"); //"Address" COOKIE
+   var s = $.cookie("Address2"); //"Suite" COOKIE
+   var c = $.cookie("City"); //"City" COOKIE
+   var z = $.cookie("Zip"); //"Zip" COOKIE
+   var p = $.cookie("Phone"); //"Phone" COOKIE
+   var l = $.cookie("Accnt_Number"); //"AccountNumber" COOKIE
+   var o = $.cookie("Pickup_Notes"); //"Notes" COOKIE
+
+   $("#Name").val(u); //FILLS WITH "USERNAME" COOKIE
+   $("#Address1").val(p); //FILLS WITH "PASSWORD" COOKIE
+   $("#Address2").val(u); //FILLS WITH "USERNAME" COOKIE
+   $("#City").val(p); //FILLS WITH "PASSWORD" COOKIE
+   $("#Zip").val(u); //FILLS WITH "USERNAME" COOKIE
+   $("#Phone").val(p); //FILLS WITH "PASSWORD" COOKIE
+   $("#Accnt_Number").val(u); //FILLS WITH "USERNAME" COOKIE
+   $("#Pickup_Notes").val(p); //FILLS WITH "PASSWORD" COOKIE
+}
+</script>
+</head>
+<body onLoad="load_em()"> 
+<input id="username"><br>
+<input id="password" type="password"><br>
+<input id="check" type="checkbox"> Remember Me<br>
+<input onClick="remember_me()" type="button" value="Demo"> 
+</body>
+</html>

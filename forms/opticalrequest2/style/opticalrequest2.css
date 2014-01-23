@@ -1,0 +1,570 @@
+#opticalrequest2 .sfm_textbox
+{
+    padding:1px;
+}
+#opticalrequest2 .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#opticalrequest2 .sfm_auto_hide_text
+{
+    color:#999 !important;
+}
+#opticalrequest2 .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#opticalrequest2 img
+{
+    border:0;
+}
+#opticalrequest2 .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#opticalrequest2 input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#opticalrequest2 .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#opticalrequest2 .sfm_cr_box a
+{
+    color:#888888;
+}
+#opticalrequest2 .form_outer_div
+{
+    border:none;
+    background-color:#c0c0c0;
+}
+#opticalrequest2 .sfm_form_label
+{
+    background-color:transparent;
+    font-family:Verdana;
+    font-size:large;
+    color:#000000;
+}
+#opticalrequest2 .element_label
+{
+    background-color:transparent;
+    font-family:Verdana;
+    font-size:large;
+    color:#000000;
+}
+body#sfm_opticalrequest2_body
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    margin:0px;
+}
+#opticalrequest2 .form_outer_div
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#opticalrequest2 .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#opticalrequest2 .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#ff0000;
+    background:none repeat scroll 0 0 #ffffff;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#opticalrequest2 .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#ff0000;
+}
+#opticalrequest2 .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#opticalrequest2 .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#opticalrequest2 .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#opticalrequest2 .page_number
+{
+    background-color:transparent;
+}
+#opticalrequest2 input[type='text'],input[type='password']
+{
+    background-color:#ffffff;
+    border:1px solid #c0c0c0;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    font-family:Verdana;
+    font-size:large;
+    color:#000000;
+    height:25px;
+    line-height:25px;
+}
+#opticalrequest2 select
+{
+    background-color:#ffffff;
+    font-family:Verdana;
+    font-size:11pt;
+    color:#000000;
+    border:1px solid #8e8f8f;
+}
+
+
+#opticalrequest2 #label9
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:#ff0000;
+}
+#opticalrequest2 #label8
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:#ff0000;
+}
+#opticalrequest2 #label10
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:#ff0000;
+}
+#opticalrequest2 #label11
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:#ff0000;
+}
+#opticalrequest2 #label12
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:#ff0000;
+}
+#opticalrequest2 #label15
+{
+    font-family:Verdana;
+    font-size:medium;
+    color:#ff0000;
+}
+
+#opticalrequest2 #t5c7dcc7e1742bd216af1
+{
+    width:5px;
+    height:5px;
+    display:none;
+}
+#opticalrequest2 #label_container
+{
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:134px;
+    height:20px;
+    z-index:1;
+}
+#opticalrequest2 #label
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #Name_container
+{
+    position:absolute;
+    left:242px;
+    top:8px;
+    z-index:2;
+}
+#opticalrequest2 #Name
+{
+    float:left;
+    width:218px;
+    z-index:2;
+}
+#opticalrequest2 #label9_container
+{
+    position:absolute;
+    left:218px;
+    top:15px;
+    width:20px;
+    height:20px;
+    z-index:17;
+}
+#opticalrequest2 #label9
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #label1_container
+{
+    position:absolute;
+    left:8px;
+    top:48px;
+    width:152px;
+    height:20px;
+    z-index:3;
+}
+#opticalrequest2 #label1
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #label8_container
+{
+    position:absolute;
+    left:219px;
+    top:54px;
+    width:20px;
+    height:20px;
+    z-index:16;
+}
+#opticalrequest2 #label8
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #Address1_container
+{
+    position:absolute;
+    left:242px;
+    top:48px;
+    z-index:4;
+}
+#opticalrequest2 #Address1
+{
+    float:left;
+    width:218px;
+    z-index:4;
+}
+#opticalrequest2 #label6_container
+{
+    position:absolute;
+    left:5px;
+    top:87px;
+    width:64px;
+    height:20px;
+    z-index:13;
+}
+#opticalrequest2 #label6
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #address2_container
+{
+    position:absolute;
+    left:242px;
+    top:88px;
+    z-index:12;
+}
+#opticalrequest2 #address2
+{
+    float:left;
+    width:218px;
+    z-index:12;
+}
+#opticalrequest2 #label4_container
+{
+    position:absolute;
+    left:9px;
+    top:128px;
+    width:48px;
+    height:20px;
+    z-index:7;
+}
+#opticalrequest2 #label4
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #label10_container
+{
+    position:absolute;
+    left:219px;
+    top:134px;
+    width:20px;
+    height:20px;
+    z-index:18;
+}
+#opticalrequest2 #label10
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #City_container
+{
+    position:absolute;
+    left:242px;
+    top:128px;
+    z-index:5;
+}
+#opticalrequest2 #City
+{
+    float:left;
+    width:218px;
+    z-index:5;
+}
+#opticalrequest2 #label3_container
+{
+    position:absolute;
+    left:12px;
+    top:170px;
+    width:39px;
+    height:20px;
+    z-index:6;
+}
+#opticalrequest2 #label3
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #zip_container
+{
+    position:absolute;
+    left:242px;
+    top:168px;
+    z-index:8;
+}
+#opticalrequest2 #zip
+{
+    float:left;
+    width:218px;
+    z-index:8;
+}
+#opticalrequest2 #label11_container
+{
+    position:absolute;
+    left:219px;
+    top:175px;
+    width:20px;
+    height:20px;
+    z-index:19;
+}
+#opticalrequest2 #label11
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #label5_container
+{
+    position:absolute;
+    left:5px;
+    top:208px;
+    width:152px;
+    height:20px;
+    z-index:9;
+}
+#opticalrequest2 #label5
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #phone_container
+{
+    position:absolute;
+    left:242px;
+    top:208px;
+    z-index:10;
+}
+#opticalrequest2 #phone
+{
+    float:left;
+    width:218px;
+    z-index:10;
+}
+#opticalrequest2 #label12_container
+{
+    position:absolute;
+    left:219px;
+    top:215px;
+    width:20px;
+    height:20px;
+    z-index:20;
+}
+#opticalrequest2 #label12
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #label7_container
+{
+    position:absolute;
+    left:7px;
+    top:269px;
+    width:175px;
+    height:20px;
+    z-index:14;
+}
+#opticalrequest2 #label7
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #lab_container
+{
+    position:absolute;
+    left:242px;
+    top:269px;
+    z-index:11;
+}
+#opticalrequest2 #lab
+{
+    float:left;
+    width:223px;
+    height:22px;
+    z-index:11;
+}
+#opticalrequest2 #label15_container
+{
+    position:absolute;
+    left:219px;
+    top:274px;
+    width:20px;
+    height:20px;
+    z-index:24;
+}
+#opticalrequest2 #label15
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #label13_container
+{
+    position:absolute;
+    left:7px;
+    top:309px;
+    width:207px;
+    height:20px;
+    z-index:21;
+}
+#opticalrequest2 #label13
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #Accnt_Number_container
+{
+    position:absolute;
+    left:242px;
+    top:307px;
+    z-index:23;
+}
+#opticalrequest2 #Accnt_Number
+{
+    float:left;
+    width:218px;
+    z-index:23;
+}
+#opticalrequest2 #label14_container
+{
+    position:absolute;
+    left:8px;
+    top:349px;
+    width:131px;
+    height:20px;
+    z-index:22;
+}
+#opticalrequest2 #label14
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    text-align:right;
+}
+#opticalrequest2 #Pickup_Notes_container
+{
+    position:absolute;
+    left:243px;
+    top:348px;
+    z-index:25;
+}
+#opticalrequest2 #Pickup_Notes
+{
+    float:left;
+    width:216px;
+    height:55px;
+    z-index:25;
+}
+#opticalrequest2 #Submit_container
+{
+    position:absolute;
+    left:379px;
+    top:424px;
+    width:80px;
+    height:25px;
+    z-index:15;
+}
+#opticalrequest2 #opticalrequest2_Submit_img
+{
+    width:84px;
+    height:29px;
+    border:none;
+}

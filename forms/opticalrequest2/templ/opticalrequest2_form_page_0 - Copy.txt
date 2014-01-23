@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form Page: opticalrequest2</title>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/sfm-png-fix.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/opticalrequest2.css?r=%sfm_css_rand%'/>
+   </head>
+   <body id='sfm_opticalrequest2_body'>
+      <form id='opticalrequest2' class='sfm_form' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='opticalrequest2_errorloc' class='error_strings' style='width:477px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='opticalrequest2_outer_div' class='form_outer_div' style='width:477px;height:454px'>
+            <div style='position:relative' id='opticalrequest2_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'/>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'/>
+               <input type='text' name='t5c7dcc7e1742bd216af1' id='t5c7dcc7e1742bd216af1'/>
+               <div id='label_container' class='sfm_form_label'>
+                  <label id='label' for='Name'>Doctor Name:</label>
+               </div>
+               <div id='Name_container'>
+                  <input type='text' name='Name' id='Name' value='%Name%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label9_container' class='sfm_form_label'>
+                  <label id='label9' for='Address1'>*</label>
+               </div>
+               <div id='label1_container' class='sfm_form_label'>
+                  <label id='label1' for='Address1'>Pickup Address:</label>
+               </div>
+               <div id='label8_container' class='sfm_form_label'>
+                  <label id='label8' for='Address1'>*</label>
+               </div>
+               <div id='Address1_container'>
+                  <input type='text' name='Address1' id='Address1' value='%Address1%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label6_container' class='sfm_form_label'>
+                  <label id='label6' for='address2'>Suite:</label>
+               </div>
+               <div id='address2_container'>
+                  <input type='text' name='address2' id='address2' value='%address2%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label4_container' class='sfm_form_label'>
+                  <label id='label4' for='City'>City:</label>
+               </div>
+               <div id='label10_container' class='sfm_form_label'>
+                  <label id='label10' for='Address1'>*</label>
+               </div>
+               <div id='City_container'>
+                  <input type='text' name='City' id='City' value='%City%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label3_container' class='sfm_form_label'>
+                  <label id='label3' for='zip'>Zip:</label>
+               </div>
+               <div id='zip_container'>
+                  <input type='text' name='zip' id='zip' value='%zip%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label11_container' class='sfm_form_label'>
+                  <label id='label11' for='Address1'>*</label>
+               </div>
+               <div id='label5_container' class='sfm_form_label'>
+                  <label id='label5' for='phone'>Phone Number:</label>
+               </div>
+               <div id='phone_container'>
+                  <input type='text' name='phone' id='phone' value='%phone%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label12_container' class='sfm_form_label'>
+                  <label id='label12' for='Address1'>*</label>
+               </div>
+               <div id='label7_container' class='sfm_form_label'>
+                  <label id='label7'>Select Laboratory:</label>
+               </div>
+               <div id='lab_container'>
+                  <select name='lab' id='lab' size='1'>
+                     <option value='VSP One' %f96927340c64c814e2e2d5b983f83a3b%>VSP One</option>
+                     <option value='Additional labs coming soon...' %55a7c98f3536339e365b0a2991cee929%>Additional labs coming soon...</option>
+                  </select>
+               </div>
+               <div id='label15_container' class='sfm_form_label'>
+                  <label id='label15' for='Address1'>*</label>
+               </div>
+               <div id='label13_container' class='sfm_form_label'>
+                  <label id='label13'>Lab Customer Acct #:</label>
+               </div>
+               <div id='Accnt_Number_container'>
+                  <input type='text' name='Accnt_Number' id='Accnt_Number' value='%Accnt_Number%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label14_container' class='sfm_form_label'>
+                  <label id='label14'>Pickup Notes:</label>
+               </div>
+               <div id='Pickup_Notes_container'><textarea name='Pickup_Notes' id='Pickup_Notes' class='sfm_textarea'>%Pickup_Notes%</textarea></div>
+               <div id='Submit_container' class='loading_div'>
+                  <input type='image' name='Submit' id='opticalrequest2_Submit_img' src='images/opticalrequest-Submit-0-0.png' alt='submit'/>
+               </div>
+            </div>
+         </div>
+<div class='sfm_cr_box' style='padding:3px; width:350px'>Powered by Simfatic Forms (<a style='text-decoration:none;' href='http://www.simfatic.com'>HTML form builder</a>), evaluation version.</div>
+      </form>
+      <script type='text/javascript'>
+// <![CDATA[
+$(function()
+{
+   sfm_show_loading_on_formsubmit('opticalrequest2','opticalrequest2_Submit_img');
+});
+sfm_fix_png("opticalrequest2_Submit_img","images/spacer.gif");
+
+// ]]>
+      </script>
+      <script type='text/javascript'>
+// <![CDATA[
+var opticalrequest2Validator = new Validator("opticalrequest2");
+opticalrequest2Validator.addValidation("Name",{required:true,message:"Please fill in Name"} );
+opticalrequest2Validator.addValidation("Address1",{required:true,message:"Please fill in Address1"} );
+opticalrequest2Validator.addValidation("City",{required:true,message:"Please fill in City"} );
+opticalrequest2Validator.addValidation("City",{alpha_s:true,message:"The input for City should be a valid alphabetic value"} );
+opticalrequest2Validator.addValidation("zip",{required:true,message:"Please fill in zip"} );
+opticalrequest2Validator.addValidation("zip",{numeric:true,message:"The input for zip should be a valid numeric value"} );
+opticalrequest2Validator.addValidation("zip",{minlen:"5",message:"The length of the input for zip should be at least 5."} );
+opticalrequest2Validator.addValidation("zip",{maxlen:"10",message:"The length of the input for zip should not exceed 10"} );
+opticalrequest2Validator.addValidation("phone",{required:true,message:"Please fill in phone number (10 digit)"} );
+opticalrequest2Validator.addValidation("phone",{maxlen:"16",message:"The length of the input for phone should not exceed 16"} );
+opticalrequest2Validator.addValidation("phone",{minlen:"10",message:"The length of the input for phone should be at least 10."} );
+opticalrequest2Validator.addValidation("phone",{alnum_s:true,message:"The input for phone should be a valid alpha-numeric value"} );
+opticalrequest2Validator.addValidation("Accnt_Number",{maxlen:"30",message:"The length of the input for Accnt_Number should not exceed 30"} );
+opticalrequest2Validator.addValidation("Pickup_Notes",{maxlen:"155",message:"The length of the input for Pickup_Notes should not exceed 155"} );
+
+// ]]>
+      </script>
+   </body>
+</html>
